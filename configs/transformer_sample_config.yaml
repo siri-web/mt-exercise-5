@@ -1,0 +1,94 @@
+name: "transformer_sample_config"
+joeynmt_version: "2.0.0"
+
+
+data:
+    train: "?"
+    dev:   "?"
+    test:  "?"
+    dataset_type: "plain"
+    src:
+        lang: "?"
+        level: "?"
+        lowercase: False
+        max_sent_length: 100
+        # either use a vocabulary limit:
+        voc_limit: ?
+        # or (= not both!) a file with a vocabulary built before starting the training:
+        voc_file : "?"
+        tokenizer_type: "?"
+        tokenizer_cfg:
+            ?
+    trg: 
+        lang: "?"
+        level: "?"
+        lowercase: False
+        max_sent_length: 100
+        # either use a vocabulary limit:
+        voc_limit: ?
+        # or (= not both!) a file with a vocabulary built before starting the training:
+        voc_file : "?"
+        tokenizer_type: "?"
+        tokenizer_cfg:
+            ?
+
+testing:
+    beam_size: ?
+    alpha: 1.0
+
+training:
+    random_seed: 42
+    optimizer: "adam"
+    normalization: "tokens"
+    learning_rate: 0.0003
+    batch_size: 2048
+    batch_type: "token"
+    eval_batch_size: 1024
+    eval_batch_type: "token"
+    scheduling: "plateau"
+    patience: 8
+    weight_decay: 0.0
+    decrease_factor: 0.7
+    early_stopping_metric: "ppl"
+    epochs: 10
+    validation_freq: 500
+    logging_freq: 100
+    eval_metric: "bleu"
+    model_dir: "?"
+    overwrite: False
+    shuffle: True
+    use_cuda: False
+    max_output_length: 100
+    print_valid_sents: [0, 1, 2, 3, 4]
+    label_smoothing: 0.3
+
+model:
+    initializer: "xavier_uniform"
+    bias_initializer: "zeros"
+    init_gain: 1.0
+    embed_initializer: "xavier_uniform"
+    embed_init_gain: 1.0
+    tied_embeddings: True
+    tied_softmax: True
+    encoder:
+        type: "transformer"
+        num_layers: 4
+        num_heads: 2
+        embeddings:
+            embedding_dim: 256
+            scale: True
+            dropout: 0
+        hidden_size: 256
+        ff_size: 512
+        dropout: 0
+    decoder:
+        type: "transformer"
+        num_layers: 1
+        num_heads: 2
+        embeddings:
+            embedding_dim: 256
+            scale: True
+            dropout: 0
+        hidden_size: 256
+        ff_size: 512
+        dropout: 0
