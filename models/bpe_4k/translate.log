@@ -1,0 +1,119 @@
+2024-05-02 15:38:41,112 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2024-05-02 15:38:41,271 - INFO - joeynmt.model - Building an encoder-decoder model...
+2024-05-02 15:38:41,330 - INFO - joeynmt.model - Enc-dec model built.
+2024-05-02 15:38:41,368 - INFO - joeynmt.helpers - Load model from /Users/Iris/test/mt-exercise-5/models/bpe_4k/43000.ckpt.
+2024-05-02 15:38:41,711 - INFO - joeynmt.tokenizers - en tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=moses, tokenizer=BPE, separator=@@, dropout=0.0)
+2024-05-02 15:38:41,711 - INFO - joeynmt.tokenizers - de tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=moses, tokenizer=BPE, separator=@@, dropout=0.0)
+2024-05-02 15:38:41,889 - WARNING - joeynmt.helpers - `alpha` option is obsolete. Please use `beam_alpha`, instead.
+2024-05-02 15:38:41,889 - INFO - joeynmt.prediction - Predicting 1568 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2024-05-02 15:42:02,706 - INFO - joeynmt.prediction - Generation took 200.7096[sec]. (No references given)
+2024-05-02 15:42:05,879 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2024-05-02 15:42:06,133 - INFO - joeynmt.model - Building an encoder-decoder model...
+2024-05-02 15:42:06,210 - INFO - joeynmt.model - Enc-dec model built.
+2024-05-02 15:42:06,255 - INFO - joeynmt.helpers - Load model from /Users/Iris/test/mt-exercise-5/models/bpe_4k/43000.ckpt.
+2024-05-02 15:42:06,637 - INFO - joeynmt.tokenizers - en tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=moses, tokenizer=BPE, separator=@@, dropout=0.0)
+2024-05-02 15:42:06,637 - INFO - joeynmt.tokenizers - de tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=moses, tokenizer=BPE, separator=@@, dropout=0.0)
+2024-05-02 15:42:06,855 - WARNING - joeynmt.helpers - `alpha` option is obsolete. Please use `beam_alpha`, instead.
+2024-05-02 15:42:06,856 - INFO - joeynmt.prediction - Predicting 1568 example(s)... (Beam search with beam_size=2, beam_alpha=1.0, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2024-05-02 15:43:41,673 - INFO - joeynmt.prediction - Generation took 94.7102[sec]. (No references given)
+2024-05-02 16:02:19,538 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2024-05-02 16:02:19,706 - INFO - joeynmt.model - Building an encoder-decoder model...
+2024-05-02 16:02:19,768 - INFO - joeynmt.model - Enc-dec model built.
+2024-05-02 16:02:19,844 - INFO - joeynmt.helpers - Load model from /Users/Iris/test/mt-exercise-5/models/bpe_4k/43000.ckpt.
+2024-05-02 16:02:20,201 - INFO - joeynmt.tokenizers - en tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=moses, tokenizer=BPE, separator=@@, dropout=0.0)
+2024-05-02 16:02:20,201 - INFO - joeynmt.tokenizers - de tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=moses, tokenizer=BPE, separator=@@, dropout=0.0)
+2024-05-02 16:02:20,383 - WARNING - joeynmt.helpers - `alpha` option is obsolete. Please use `beam_alpha`, instead.
+2024-05-02 16:02:20,383 - INFO - joeynmt.prediction - Predicting 1568 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2024-05-02 16:05:53,249 - INFO - joeynmt.prediction - Generation took 212.7648[sec]. (No references given)
+2024-05-02 16:05:56,892 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2024-05-02 16:05:57,090 - INFO - joeynmt.model - Building an encoder-decoder model...
+2024-05-02 16:05:57,156 - INFO - joeynmt.model - Enc-dec model built.
+2024-05-02 16:05:57,231 - INFO - joeynmt.helpers - Load model from /Users/Iris/test/mt-exercise-5/models/bpe_4k/43000.ckpt.
+2024-05-02 16:05:57,607 - INFO - joeynmt.tokenizers - en tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=moses, tokenizer=BPE, separator=@@, dropout=0.0)
+2024-05-02 16:05:57,607 - INFO - joeynmt.tokenizers - de tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=moses, tokenizer=BPE, separator=@@, dropout=0.0)
+2024-05-02 16:05:57,817 - WARNING - joeynmt.helpers - `alpha` option is obsolete. Please use `beam_alpha`, instead.
+2024-05-02 16:05:57,817 - INFO - joeynmt.prediction - Predicting 1568 example(s)... (Beam search with beam_size=2, beam_alpha=1.0, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2024-05-02 16:11:28,395 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2024-05-02 16:11:28,557 - INFO - joeynmt.model - Building an encoder-decoder model...
+2024-05-02 16:11:28,618 - INFO - joeynmt.model - Enc-dec model built.
+2024-05-02 16:11:28,669 - INFO - joeynmt.helpers - Load model from /Users/Iris/test/mt-exercise-5/models/bpe_4k/43000.ckpt.
+2024-05-02 16:11:29,024 - INFO - joeynmt.tokenizers - en tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=moses, tokenizer=BPE, separator=@@, dropout=0.0)
+2024-05-02 16:11:29,024 - INFO - joeynmt.tokenizers - de tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=moses, tokenizer=BPE, separator=@@, dropout=0.0)
+2024-05-02 16:11:29,203 - WARNING - joeynmt.helpers - `alpha` option is obsolete. Please use `beam_alpha`, instead.
+2024-05-02 16:11:29,203 - INFO - joeynmt.prediction - Predicting 1568 example(s)... (Beam search with beam_size=5, beam_alpha=1.0, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2024-05-02 16:14:47,332 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2024-05-02 16:14:47,489 - INFO - joeynmt.model - Building an encoder-decoder model...
+2024-05-02 16:14:47,547 - INFO - joeynmt.model - Enc-dec model built.
+2024-05-02 16:14:47,622 - INFO - joeynmt.helpers - Load model from /Users/Iris/test/mt-exercise-5/models/bpe_4k/43000.ckpt.
+2024-05-02 16:14:47,959 - INFO - joeynmt.tokenizers - en tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=moses, tokenizer=BPE, separator=@@, dropout=0.0)
+2024-05-02 16:14:47,959 - INFO - joeynmt.tokenizers - de tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=moses, tokenizer=BPE, separator=@@, dropout=0.0)
+2024-05-02 16:14:48,131 - WARNING - joeynmt.helpers - `alpha` option is obsolete. Please use `beam_alpha`, instead.
+2024-05-02 16:14:50,354 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2024-05-02 16:14:50,514 - INFO - joeynmt.model - Building an encoder-decoder model...
+2024-05-02 16:14:50,573 - INFO - joeynmt.model - Enc-dec model built.
+2024-05-02 16:14:50,610 - INFO - joeynmt.helpers - Load model from /Users/Iris/test/mt-exercise-5/models/bpe_4k/43000.ckpt.
+2024-05-02 16:16:05,157 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2024-05-02 16:16:05,319 - INFO - joeynmt.model - Building an encoder-decoder model...
+2024-05-02 16:16:05,378 - INFO - joeynmt.model - Enc-dec model built.
+2024-05-02 16:16:05,415 - INFO - joeynmt.helpers - Load model from /Users/Iris/test/mt-exercise-5/models/bpe_4k/43000.ckpt.
+2024-05-02 16:16:05,735 - INFO - joeynmt.tokenizers - en tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=moses, tokenizer=BPE, separator=@@, dropout=0.0)
+2024-05-02 16:16:05,735 - INFO - joeynmt.tokenizers - de tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=moses, tokenizer=BPE, separator=@@, dropout=0.0)
+2024-05-02 16:16:05,907 - WARNING - joeynmt.helpers - `alpha` option is obsolete. Please use `beam_alpha`, instead.
+2024-05-02 16:16:08,258 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2024-05-02 16:16:08,413 - INFO - joeynmt.model - Building an encoder-decoder model...
+2024-05-02 16:16:08,472 - INFO - joeynmt.model - Enc-dec model built.
+2024-05-02 16:16:08,508 - INFO - joeynmt.helpers - Load model from /Users/Iris/test/mt-exercise-5/models/bpe_4k/43000.ckpt.
+2024-05-02 16:17:14,050 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2024-05-02 16:17:14,211 - INFO - joeynmt.model - Building an encoder-decoder model...
+2024-05-02 16:17:14,271 - INFO - joeynmt.model - Enc-dec model built.
+2024-05-02 16:17:14,309 - INFO - joeynmt.helpers - Load model from /Users/Iris/test/mt-exercise-5/models/bpe_4k/43000.ckpt.
+2024-05-02 16:17:14,635 - INFO - joeynmt.tokenizers - en tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=moses, tokenizer=BPE, separator=@@, dropout=0.0)
+2024-05-02 16:17:14,635 - INFO - joeynmt.tokenizers - de tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=moses, tokenizer=BPE, separator=@@, dropout=0.0)
+2024-05-02 16:17:14,811 - WARNING - joeynmt.helpers - `alpha` option is obsolete. Please use `beam_alpha`, instead.
+2024-05-02 16:17:14,811 - INFO - joeynmt.prediction - Predicting 1568 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2024-05-02 16:20:26,789 - INFO - joeynmt.prediction - Generation took 191.8834[sec]. (No references given)
+2024-05-02 16:20:30,451 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2024-05-02 16:20:30,638 - INFO - joeynmt.model - Building an encoder-decoder model...
+2024-05-02 16:20:30,701 - INFO - joeynmt.model - Enc-dec model built.
+2024-05-02 16:20:30,776 - INFO - joeynmt.helpers - Load model from /Users/Iris/test/mt-exercise-5/models/bpe_4k/43000.ckpt.
+2024-05-02 16:20:31,142 - INFO - joeynmt.tokenizers - en tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=moses, tokenizer=BPE, separator=@@, dropout=0.0)
+2024-05-02 16:20:31,142 - INFO - joeynmt.tokenizers - de tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=moses, tokenizer=BPE, separator=@@, dropout=0.0)
+2024-05-02 16:20:31,349 - WARNING - joeynmt.helpers - `alpha` option is obsolete. Please use `beam_alpha`, instead.
+2024-05-02 16:20:31,349 - INFO - joeynmt.prediction - Predicting 1568 example(s)... (Beam search with beam_size=2, beam_alpha=1.0, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2024-05-02 16:21:46,817 - INFO - joeynmt.prediction - Generation took 75.3721[sec]. (No references given)
+2024-05-02 18:14:26,915 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2024-05-02 18:14:27,075 - INFO - joeynmt.model - Building an encoder-decoder model...
+2024-05-02 18:14:27,146 - INFO - joeynmt.model - Enc-dec model built.
+2024-05-02 18:14:27,224 - INFO - joeynmt.helpers - Load model from /Users/Iris/test/mt-exercise-5/models/bpe_4k/43000.ckpt.
+2024-05-02 18:14:27,577 - INFO - joeynmt.tokenizers - en tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=moses, tokenizer=BPE, separator=@@, dropout=0.0)
+2024-05-02 18:14:27,577 - INFO - joeynmt.tokenizers - de tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=moses, tokenizer=BPE, separator=@@, dropout=0.0)
+2024-05-02 18:14:27,752 - WARNING - joeynmt.helpers - `alpha` option is obsolete. Please use `beam_alpha`, instead.
+2024-05-02 18:14:27,752 - INFO - joeynmt.prediction - Predicting 1568 example(s)... (Beam search with beam_size=2, beam_alpha=1.0, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2024-05-02 18:15:45,318 - INFO - joeynmt.prediction - Generation took 77.4742[sec]. (No references given)
+2024-05-02 18:15:49,108 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2024-05-02 18:15:49,269 - INFO - joeynmt.model - Building an encoder-decoder model...
+2024-05-02 18:15:49,328 - INFO - joeynmt.model - Enc-dec model built.
+2024-05-02 18:15:49,374 - INFO - joeynmt.helpers - Load model from /Users/Iris/test/mt-exercise-5/models/bpe_4k/43000.ckpt.
+2024-05-02 18:15:49,698 - INFO - joeynmt.tokenizers - en tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=moses, tokenizer=BPE, separator=@@, dropout=0.0)
+2024-05-02 18:15:49,698 - INFO - joeynmt.tokenizers - de tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=moses, tokenizer=BPE, separator=@@, dropout=0.0)
+2024-05-02 18:15:49,877 - WARNING - joeynmt.helpers - `alpha` option is obsolete. Please use `beam_alpha`, instead.
+2024-05-02 18:15:49,877 - INFO - joeynmt.prediction - Predicting 1568 example(s)... (Beam search with beam_size=2, beam_alpha=1.0, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2024-05-02 18:17:05,535 - INFO - joeynmt.prediction - Generation took 75.5659[sec]. (No references given)
+2024-05-02 19:54:11,218 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2024-05-02 19:54:11,399 - INFO - joeynmt.model - Building an encoder-decoder model...
+2024-05-02 19:54:11,465 - INFO - joeynmt.model - Enc-dec model built.
+2024-05-02 19:54:11,557 - INFO - joeynmt.helpers - Load model from /Users/Iris/test/mt-exercise-5/models/bpe_4k/43000.ckpt.
+2024-05-02 19:54:12,137 - INFO - joeynmt.tokenizers - en tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=moses, tokenizer=BPE, separator=@@, dropout=0.0)
+2024-05-02 19:54:12,137 - INFO - joeynmt.tokenizers - de tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=moses, tokenizer=BPE, separator=@@, dropout=0.0)
+2024-05-02 19:54:12,352 - WARNING - joeynmt.helpers - `alpha` option is obsolete. Please use `beam_alpha`, instead.
+2024-05-02 19:54:12,352 - INFO - joeynmt.prediction - Predicting 1568 example(s)... (Beam search with beam_size=2, beam_alpha=1.0, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2024-05-02 19:55:44,230 - INFO - joeynmt.prediction - Generation took 91.7810[sec]. (No references given)
+2024-05-02 19:55:48,214 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2024-05-02 19:55:48,404 - INFO - joeynmt.model - Building an encoder-decoder model...
+2024-05-02 19:55:48,460 - INFO - joeynmt.model - Enc-dec model built.
+2024-05-02 19:55:48,537 - INFO - joeynmt.helpers - Load model from /Users/Iris/test/mt-exercise-5/models/bpe_4k/43000.ckpt.
+2024-05-02 19:55:48,919 - INFO - joeynmt.tokenizers - en tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=moses, tokenizer=BPE, separator=@@, dropout=0.0)
+2024-05-02 19:55:48,919 - INFO - joeynmt.tokenizers - de tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=moses, tokenizer=BPE, separator=@@, dropout=0.0)
+2024-05-02 19:55:49,129 - WARNING - joeynmt.helpers - `alpha` option is obsolete. Please use `beam_alpha`, instead.
+2024-05-02 19:55:49,129 - INFO - joeynmt.prediction - Predicting 1568 example(s)... (Beam search with beam_size=2, beam_alpha=1.0, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2024-05-02 19:57:17,899 - INFO - joeynmt.prediction - Generation took 88.6563[sec]. (No references given)
